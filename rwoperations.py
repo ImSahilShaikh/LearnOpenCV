@@ -1,3 +1,4 @@
+#Simple read write operations over an image is performed in this code
 #importing opencv library
 import cv2
 #printing version of opencv
