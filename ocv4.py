@@ -10,6 +10,13 @@ img.fill(255)
 #line drawing function
 cv2.line(img,(200,200),(350,350),(0,0,255))
 
+#circle drawing function
+cv2.circle(img,(250,250),50,(250,0,0))
+
+font = cv2.FONT_HERSHEY_DUPLEX
+#text printing
+cv2.putText(img,"Sahil",(100,100),font,3,(0,0,0),4,cv2.LINE_8)
+
 
 cv2.imshow('Dark_Pic_Created_in_Numpy',img)
 
